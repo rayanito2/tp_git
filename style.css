@@ -1,0 +1,29 @@
+html {
+    margin : 0;
+    padding : 0;
+
+}
+
+body {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Je souhaite que toutes les div dans body soient représentées de la sorte : 3 divs par lignes */
+div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pokemon-container {
+    display : flex;
+    flex-direction: row;
+    width: 50vw;
+    height: 50vh;
+    overflow:scroll;
+    overflow-y: hidden;
+}
